@@ -6,3 +6,66 @@ Reset */
   margin: 0;
   box-sizing: border-box;
 }
+
+/* //////////////////////////////////////////////////
+––––––––––––––––––––––––––––––––––––––––––––––––––
+GENERAL
+––––––––––––––––––––––––––––––––––––––––––––––––––
+////////////////////////////////////////////////// */
+
+$bg: #fff;
+$myBlack: #000;
+$myRed: #BF212E;
+$myBlue: #304673;
+$myDarkYellow: #F2B90C;
+$mySoftYellow: #F2CD5E;
+
+$myBorder: 20px;
+
+body {
+  /* SIZE */
+  width: 100%;
+  height: 100vh;
+  /* STYLE */
+  background: $bg;
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* POSITION */
+  /* INTERACTION */
+}
+
+.wrapper {
+  /* SIZE */
+  width: 800px;
+  height: auto;
+  /* STYLE */
+  border: $myBorder solid $myBlack;
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  display: flex;
+  flex-wrap: wrap;
+  /* POSITION */
+  /* INTERACTION */
+}
+
+[class*="box"] {
+  /* SIZE */
+  width: calc(400px - 20px);
+  height: calc(400px - 20px);
+  flex-grow: 1;
+  /* STYLE */
+  border: $myBorder solid $myBlack;
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+  transition: all 1s;
+}
+
+.box1 { background: $myRed; }
+.box2 { background: $myBlue; }
+.box3 { background: $myDarkYellow; }
+.box4 { background: $mySoftYellow; }

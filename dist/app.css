@@ -9,3 +9,68 @@ Reset */
   box-sizing: border-box;
 }
 
+/* //////////////////////////////////////////////////
+––––––––––––––––––––––––––––––––––––––––––––––––––
+GENERAL
+––––––––––––––––––––––––––––––––––––––––––––––––––
+////////////////////////////////////////////////// */
+
+body {
+  /* SIZE */
+  width: 100%;
+  height: 100vh;
+  /* STYLE */
+  background: #fff;
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* POSITION */
+  /* INTERACTION */
+}
+
+.wrapper {
+  /* SIZE */
+  width: 800px;
+  height: auto;
+  /* STYLE */
+  border: 20px solid #000;
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  display: flex;
+  flex-wrap: wrap;
+  /* POSITION */
+  /* INTERACTION */
+}
+
+[class*=box] {
+  /* SIZE */
+  width: calc(400px - 20px);
+  height: calc(400px - 20px);
+  flex-grow: 1;
+  /* STYLE */
+  border: 20px solid #000;
+  /* TYPOGRAPHY */
+  /* DISPLAY */
+  /* POSITION */
+  /* INTERACTION */
+  transition: all 1s;
+}
+
+.box1 {
+  background: #BF212E;
+}
+
+.box2 {
+  background: #304673;
+}
+
+.box3 {
+  background: #F2B90C;
+}
+
+.box4 {
+  background: #F2CD5E;
+}
+
